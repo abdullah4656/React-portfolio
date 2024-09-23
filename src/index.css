@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.services{
+  color:rgb(64, 64, 64)
+}
+@media (max-width: 515px) {
+  .portfolio-cards{
+    display: flex;
+   margin: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.footer{
+  display: flex;
+ flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+   
+  }
+  .getin{
+    display: none;
+  }
+  .getin2{
+    display: grid;
+    justify-items: end;
+    gap: 3px;
+  }
+  .nav-icons{
+    display:none;
+  }
+  .nav-content{
+    display: inline;
+  
+  }
+}

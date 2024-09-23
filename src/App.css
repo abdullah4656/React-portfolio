@@ -1,0 +1,72 @@
+body{
+  background-color: whitesmoke;
+}
+.logo-img{
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.App {
+  position: relative;
+}
+
+
+
+button {
+  margin: 20px;
+}
+/* Aboutme.css */
+
+
+/* Move to the center of the page */
+/* .trs {
+  position: relative;
+   
+  left:110px;
+bottom: -130px;
+  height: 100vh;
+
+  
+}
+.aboutme {
+  bottom: -130px;
+  height: 100vh;
+
+  transition: left 0.5s ease-out /* Smooth transition effect */
+/* }  */
+
+
+
+
+.custom-tooltip {
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.custom-tooltip::after {
+  border-top: 6px solid #333; /* Tooltip arrow color */
+}
+
+
+/* Optional: add a background color and some padding for better visibility */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Portfolio.css */
+
+.card {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Adjust this value as needed */
+  background-color: #4f46e5; /* Tailwind's indigo-700 */
+  color: #f8fafc; /* Tailwind's slate-50 */
+}
